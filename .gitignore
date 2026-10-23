@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local Databases & Sessions
+*.db
+*.sqlite
+*.sqlite3
+youtube_bot.db
+
+# User Browser Profiles & Cookies (Sensitive!)
+profiles/
+profiles/*
+
+# Environment variables & Keys
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/

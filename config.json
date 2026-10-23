@@ -1,0 +1,136 @@
+{
+  "accounts": [
+    {
+      "id": "acc_1",
+      "name": "Account 1 (Primary / Author)",
+      "profile_dir": "profiles/account_1",
+      "persona": "Author & Mystery Storyteller",
+      "style": "Insightful, analytical, respectful of the creator, signs off with subtle author branding",
+      "signature": "Author of 'The Whispering Walls' on Kindle",
+      "enabled": true
+    },
+    {
+      "id": "acc_2",
+      "name": "Account 2 (Avid Thriller Fan)",
+      "profile_dir": "profiles/account_2",
+      "persona": "Avid Psychological Thriller & Fiction Reader",
+      "style": "Relatable, witty, high-engagement hook, praises the twist, natural reader voice",
+      "signature": "",
+      "enabled": true
+    },
+    {
+      "id": "acc_3",
+      "name": "Account 3 (Plot Analyst)",
+      "profile_dir": "profiles/account_3",
+      "persona": "Deep Plot & Mind-Bending Twists Explorer",
+      "style": "Curious, thought-provoking question, sparks debates and upvotes in the comments",
+      "signature": "",
+      "enabled": true
+    }
+  ],
+  "book_details": {
+    "title": "The Whispering Walls",
+    "author_name": "M. Oufella",
+    "genre": "Psychological Thriller / Mystery Fiction",
+    "amazon_kindle_url": "https://www.amazon.com/dp/YOUR_ASIN_HERE",
+    "key_hook": "A chilling psychological thriller where every locked door hides a secret and the ending twists everything you thought you knew.",
+    "ideal_audience": "Fans of Gone Girl, The Silent Patient, Shutter Island, and intense mind-bending mystery stories"
+  },
+  "sniper_settings": {
+    "enabled": true,
+    "check_interval_seconds": 120,
+    "max_video_age_minutes": 60,
+    "stagger_delay_between_accounts_sec": [
+      45,
+      110
+    ],
+    "target_channels": [
+      {
+        "name": "MrBallen",
+        "url": "https://www.youtube.com/@MrBallen",
+        "channel_id": "UCtPrkXdtCM5DACLufB9jbsA"
+      },
+      {
+        "name": "Coffeehouse Crime",
+        "url": "https://www.youtube.com/@CoffeehouseCrime",
+        "channel_id": "UCcUf33cEPky2GiWBgOP-jQA"
+      },
+      {
+        "name": "Crime Junkie",
+        "url": "https://www.youtube.com/@CrimeJunkie",
+        "channel_id": "UCpRiMGGX2hM9zqv6FgXXbKg"
+      },
+      {
+        "name": "The Exploring Series",
+        "url": "https://www.youtube.com/@TheExploringSeries",
+        "channel_id": "UCYyWrpcVU2PZlLohFaYOZUw"
+      },
+      {
+        "name": "CreepyMcPasta",
+        "url": "https://www.youtube.com/@CreepyMcPasta",
+        "channel_id": "UCjniOnW3_tdsJGkJKsxp_Wg"
+      },
+      {
+        "name": "Jack Edwards (BookTube)",
+        "url": "https://www.youtube.com/@jackedwards",
+        "channel_id": "UCxEvGzFWHFZuVM4kpgMV8Tw"
+      },
+      {
+        "name": "PeruseProject",
+        "url": "https://www.youtube.com/@PeruseProject",
+        "channel_id": "UCy6Qlkv2hif7KPtmMmNUGUw"
+      }
+    ]
+  },
+  "warmer_settings": {
+    "enabled": true,
+    "like_probability": 0.41,
+    "subscribe_probability": 0.21,
+    "min_watch_seconds": 60,
+    "max_watch_seconds": 180,
+    "videos_per_session_per_account": 3,
+    "niche_search_keywords": [
+      "psychological thriller book recommendations",
+      "best mystery thriller books plot twist",
+      "dark suspense mystery story breakdown",
+      "books that will keep you up all night",
+      "thriller books with crazy endings",
+      "crime mystery novel review",
+      "unputdownable psychological thrillers"
+    ]
+  },
+  "intent_hunter_settings": {
+    "enabled": true,
+    "max_replies_per_session": 4,
+    "delay_between_replies_sec": [
+      60,
+      140
+    ],
+    "trigger_keywords": [
+      "recommend",
+      "recommendation",
+      "book like",
+      "what should i read",
+      "next book",
+      "plot twist",
+      "psychological thriller",
+      "thriller novel",
+      "mind bending",
+      "scariest book",
+      "unsettling story",
+      "similar to gone girl",
+      "similar to the silent patient"
+    ]
+  },
+  "ai_settings": {
+    "gemini_api_key": "",
+    "model": "gemini-1.5-flash",
+    "use_smart_fallback_if_no_key": true
+  },
+  "safety_limits": {
+    "max_sniper_comments_per_account_daily": 15,
+    "max_replies_per_account_daily": 12,
+    "max_warmer_views_per_account_daily": 25,
+    "headless": false
+  }
+}
